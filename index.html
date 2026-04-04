@@ -13,133 +13,22 @@
             --card-bg: #ffffff;
             --border-color: #e2e8f0;
         }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-            line-height: 1.7;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 850px;
-            margin: 60px auto;
-            padding: 50px;
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 16px;
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
-        }
-
-        header {
-            border-bottom: 3px solid var(--primary-color);
-            padding-bottom: 25px;
-            margin-bottom: 35px;
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 2.2rem;
-            color: #0f172a;
-            letter-spacing: -0.025em;
-        }
-
-        .last-updated {
-            color: #64748b;
-            font-size: 0.95rem;
-            margin-top: 10px;
-            font-weight: 500;
-        }
-
-        h2 {
-            font-size: 1.4rem;
-            color: #0f172a;
-            margin-top: 2.5rem;
-            display: flex;
-            align-items: center;
-            font-weight: 700;
-        }
-
-        h2::before {
-            content: "";
-            display: inline-block;
-            width: 4px;
-            height: 20px;
-            background: var(--primary-color);
-            margin-right: 12px;
-            border-radius: 2px;
-        }
-
-        p, li {
-            margin-bottom: 1.1rem;
-            color: #334155;
-        }
-
-        ul {
-            padding-left: 25px;
-        }
-
-        .status-badge {
-            display: inline-block;
-            background-color: #dcfce7;
-            color: #166534;
-            padding: 6px 14px;
-            border-radius: 20px;
-            font-size: 0.75rem;
-            font-weight: 800;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-
-        .highlight-box {
-            background-color: #f1f5f9;
-            border-left: 4px solid #3b82f6;
-            padding: 20px;
-            margin: 25px 0;
-            font-size: 0.95rem;
-            border-radius: 0 8px 8px 0;
-        }
-
-        .contact-card {
-            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
-            color: white;
-            padding: 35px;
-            border-radius: 12px;
-            margin-top: 40px;
-        }
-
-        .contact-card h2 {
-            color: white;
-            margin-top: 0;
-            border: none;
-        }
-
+        body { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; line-height: 1.7; color: var(--text-color); background-color: var(--bg-color); margin: 0; padding: 0; }
+        .container { max-width: 850px; margin: 60px auto; padding: 50px; background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 16px; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05); }
+        header { border-bottom: 3px solid var(--primary-color); padding-bottom: 25px; margin-bottom: 35px; }
+        h1 { margin: 0; font-size: 2.2rem; color: #0f172a; }
+        .last-updated { color: #64748b; font-size: 0.95rem; margin-top: 10px; }
+        h2 { font-size: 1.4rem; color: #0f172a; margin-top: 2.5rem; display: flex; align-items: center; font-weight: 700; }
+        h2::before { content: ""; display: inline-block; width: 4px; height: 20px; background: var(--primary-color); margin-right: 12px; border-radius: 2px; }
+        p, li { margin-bottom: 1.1rem; color: #334155; }
+        ul { padding-left: 25px; }
+        .status-badge { display: inline-block; background-color: #dcfce7; color: #166534; padding: 6px 14px; border-radius: 20px; font-size: 0.75rem; font-weight: 800; margin-bottom: 20px; text-transform: uppercase; }
+        .contact-card { background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%); color: white; padding: 35px; border-radius: 12px; margin-top: 40px; }
+        .contact-card h2 { color: white; border: none; margin-top: 0; }
         .contact-card h2::before { display: none; }
-
-        .contact-card a {
-            color: #ffffff;
-            font-weight: bold;
-            text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 50px;
-            padding-bottom: 50px;
-            font-size: 0.85rem;
-            color: #94a3b8;
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                margin: 0;
-                padding: 30px 20px;
-                border-radius: 0;
-            }
-        }
+        .contact-card a { color: #ffffff; font-weight: bold; text-decoration: underline; }
+        footer { text-align: center; margin-top: 50px; padding-bottom: 50px; font-size: 0.85rem; color: #94a3b8; }
+        @media (max-width: 768px) { .container { margin: 0; padding: 30px 20px; border-radius: 0; } }
     </style>
 </head>
 <body>
@@ -151,51 +40,26 @@
         <div class="last-updated">Last Updated: April 04, 2026</div>
     </header>
 
-    <p>This Privacy Policy describes the policies and procedures of <strong>ae35.labs</strong> ("the Company", "We", "Us", or "Our") regarding the collection, use, and disclosure of information within the <strong>Schengen Days</strong> mobile application (the "Service").</p>
+    <p>This Privacy Policy describes the policies of <strong>ae35.labs</strong> regarding the <strong>Schengen Days</strong> mobile application (the "Service"). This app is a 100% free utility designed with "Privacy by Design" principles.</p>
 
-    <div class="highlight-box">
-        <strong>Privacy by Design:</strong> Schengen Days is a "Zero-Data" application. We do not collect, store, or transmit your personal travel data to any external servers. Your data stays on your device.
-    </div>
-
-    <h2>1. Data Collection & Processing</h2>
-    <p>We do not collect "Personal Data" or "Personally Identifiable Information" (PII) as defined by the UK GDPR, EU GDPR, and US State Privacy Laws (CCPA/CPRA, VCDPA, etc.).</p>
+    <h2>1. Data Collection & Multi-User Profiles</h2>
+    <p>We do not collect "Personal Data" or PII. The Service allows for the creation of <strong>multiple user profiles</strong> (e.g., for family members), but all such data is handled as follows:</p>
     <ul>
-        <li><strong>No User Accounts:</strong> No registration, email address, or phone number is required to use the Service.</li>
-        <li><strong>On-Device Storage:</strong> All entry/exit dates and visa calculations are stored <strong>locally on your mobile device</strong>. We have no access to this data.</li>
-        <li><strong>No Third-Party Trackers:</strong> We do not use invasive analytics, advertising identifiers (IDFA/AAID), or trackers to profile users.</li>
+        <li><strong>Local Storage Only:</strong> All profile names and travel dates are stored <strong>only on your physical device</strong>. We cannot see who is using the app or what their travel history is.</li>
+        <li><strong>No External Transmission:</strong> Profile data is never uploaded to our servers or any third-party cloud services.</li>
     </ul>
 
-    <h2>2. App Permissions (Consent-Based)</h2>
-    <p>The Application may request the following permission to enable core features:</p>
+    <h2>2. App Permissions</h2>
     <ul>
-        <li><strong>Location Services:</strong> If granted, location data is used locally to assist with border-crossing calculations. This information is processed in real-time on your device and is never sent to our servers.</li>
+        <li><strong>Location:</strong> Used locally for calculation assistance if enabled. No location history is transmitted or stored by ae35.labs.</li>
     </ul>
 
-    <h2>3. US State Privacy Rights (CCPA/CPRA)</h2>
-    <p>For residents of California, Virginia, Colorado, and other US states with active privacy legislation:</p>
-    <ul>
-        <li><strong>No Sale or Sharing:</strong> We do not "sell" or "share" your personal information (as those terms are defined under the CCPA/CPRA).</li>
-        <li><strong>Right to Know & Delete:</strong> Since we do not collect your data, we do not hold information to "delete" or "disclose." You maintain full control by managing data within the App or uninstalling it.</li>
-        <li><strong>Non-Discrimination:</strong> We will not discriminate against you for exercising any of your privacy rights.</li>
-    </ul>
-
-    <h2>4. UK & EU GDPR Compliance</h2>
-    <p>In accordance with the UK and EU General Data Protection Regulations:</p>
-    <ul>
-        <li><strong>Lawful Basis:</strong> Local processing is based on <strong>Contractual Necessity</strong> (to provide the requested calculations) and <strong>Consent</strong> (for system permissions).</li>
-        <li><strong>Data Controller:</strong> ae35.labs serves as the Data Controller.</li>
-        <li><strong>Data Portability:</strong> Users may view and manage all locally stored data through the App interface.</li>
-    </ul>
-
-    <h2>5. International Transfers</h2>
-    <p>Because no personal data is collected or transmitted, there are no international transfers of your personal information to third countries or international organizations.</p>
-
-    <h2>6. Children’s Privacy</h2>
-    <p>Our Service is intended for a general audience and does not knowingly collect any data from children. We comply with the **COPPA (USA)** and the **UK Age Appropriate Design Code** by ensuring no data collection occurs for any user, regardless of age.</p>
+    <h2>3. Compliance (UK, EU, & USA)</h2>
+    <p>We comply with the UK GDPR, EU GDPR, and US State Privacy Laws (CCPA/CPRA). Because we do not collect, sell, or share data, your statutory rights are maintained by your ability to manage or delete data within the app at any time.</p>
 
     <div class="contact-card">
-        <h2>7. Contact Us</h2>
-        <p>If you have questions about our privacy practices or this "Zero-Data" approach, please contact our support team:</p>
+        <h2>4. Contact Us</h2>
+        <p>Questions? Reach out to our support team:</p>
         <p>
             <strong>Email:</strong> <a href="mailto:ae35.labs@gmail.com">ae35.labs@gmail.com</a><br>
             <strong>Developer:</strong> ae35.labs<br>
@@ -206,7 +70,7 @@
 
 <footer>
     &copy; 2026 ae35.labs. All rights reserved.<br>
-    Schengen Days is an assistance tool; it does not provide legal immigration advice.
+    Schengen Days is a free assistance tool; it does not provide legal immigration advice.
 </footer>
 
 </body>
