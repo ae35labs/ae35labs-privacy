@@ -6,7 +6,7 @@
     <title>Privacy Policy | Schengen Family</title>
     <style>
         :root {
-            --primary-color: #1e40af; /* Deep Blue */
+            --primary-color: #1e40af; 
             --accent-color: #3b82f6;
             --text-color: #1f2937;
             --bg-color: #f8fafc;
@@ -54,25 +54,26 @@
         }
 
         h2 {
-            font-size: 1.6rem;
+            font-size: 1.4rem;
             color: #0f172a;
             margin-top: 2.5rem;
             display: flex;
             align-items: center;
+            font-weight: 700;
         }
 
         h2::before {
             content: "";
             display: inline-block;
             width: 4px;
-            height: 24px;
+            height: 20px;
             background: var(--primary-color);
             margin-right: 12px;
             border-radius: 2px;
         }
 
         p, li {
-            margin-bottom: 1.2rem;
+            margin-bottom: 1.1rem;
             color: #334155;
         }
 
@@ -84,26 +85,28 @@
             display: inline-block;
             background-color: #dcfce7;
             color: #166534;
-            padding: 6px 12px;
+            padding: 6px 14px;
             border-radius: 20px;
-            font-size: 0.85rem;
-            font-weight: 700;
+            font-size: 0.75rem;
+            font-weight: 800;
             margin-bottom: 20px;
             text-transform: uppercase;
+            letter-spacing: 0.05em;
         }
 
-        .law-box {
+        .highlight-box {
             background-color: #f1f5f9;
-            border-left: 4px solid #64748b;
+            border-left: 4px solid #3b82f6;
             padding: 20px;
             margin: 25px 0;
             font-size: 0.95rem;
+            border-radius: 0 8px 8px 0;
         }
 
         .contact-card {
             background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
             color: white;
-            padding: 30px;
+            padding: 35px;
             border-radius: 12px;
             margin-top: 40px;
         }
@@ -117,10 +120,9 @@
         .contact-card h2::before { display: none; }
 
         .contact-card a {
-            color: #dbeafe;
+            color: #ffffff;
             font-weight: bold;
-            text-decoration: none;
-            border-bottom: 1px dashed #dbeafe;
+            text-decoration: underline;
         }
 
         footer {
@@ -144,64 +146,67 @@
 
 <div class="container">
     <header>
-        <span class="status-badge">UK GDPR & EU GDPR Compliant</span>
+        <span class="status-badge">Global Compliance: UK • EU • USA</span>
         <h1>Privacy Policy</h1>
-        <div class="last-updated">Effective Date: April 04, 2026</div>
+        <div class="last-updated">Last Updated: April 04, 2026</div>
     </header>
 
-    <p>This Privacy Policy describes how <strong>ae35.labs</strong> ("the Company", "We", "Us", or "Our") handles information within the <strong>Schengen Family</strong> mobile application (the "Service"). This policy is designed to meet the requirements of both the <strong>UK Data Protection Act 2018 (UK GDPR)</strong> and the <strong>EU General Data Protection Regulation (GDPR)</strong>.</p>
+    <p>This Privacy Policy describes the policies and procedures of <strong>ae35.labs</strong> ("the Company", "We", "Us", or "Our") regarding the collection, use, and disclosure of information within the <strong>Schengen Family</strong> mobile application (the "Service").</p>
 
-    <div class="law-box">
-        <strong>Data Controller:</strong> For the purposes of data protection laws, <strong>ae35.labs</strong> is the Data Controller. Because our Service is designed with "Privacy by Design" principles, we do not transmit or store your personal identifiers on our infrastructure.
+    <div class="highlight-box">
+        <strong>Privacy by Design:</strong> Schengen Family is a "Zero-Data" application. We do not collect, store, or transmit your personal travel data to any external servers. Your data stays on your device.
     </div>
 
     <h2>1. Data Collection & Processing</h2>
-    <p>The Service is a <strong>Zero-Data Collection</strong> application. We operate on the principle that your travel data belongs to you, and you alone.</p>
+    <p>We do not collect "Personal Data" or "Personally Identifiable Information" (PII) as defined by the UK GDPR, EU GDPR, and US State Privacy Laws (CCPA/CPRA, VCDPA, etc.).</p>
     <ul>
-        <li><strong>No Personal Identifiers:</strong> We do not collect names, email addresses, phone numbers, or government IDs. No account registration is required.</li>
-        <li><strong>Local-Only Storage:</strong> All travel dates, logs, and visa calculations are stored <strong>exclusively on your physical device</strong>. This data is never uploaded to our servers.</li>
-        <li><strong>No Third-Party Tracking:</strong> We do not use advertising IDs (IDFA/AAID) or invasive analytics to profile your behavior.</li>
+        <li><strong>No User Accounts:</strong> No registration, email address, or phone number is required to use the Service.</li>
+        <li><strong>On-Device Storage:</strong> All entry/exit dates and visa calculations are stored <strong>locally on your mobile device</strong>. We have no access to this data.</li>
+        <li><strong>No Third-Party Trackers:</strong> We do not use invasive analytics, advertising identifiers (IDFA/AAID), or trackers to profile users.</li>
     </ul>
 
-    <h2>2. Legal Basis for Processing</h2>
-    <p>Under EU and UK law, we must specify the legal basis for any data processing. To the extent that the App processes data locally on your device, the legal basis is:</p>
+    <h2>2. App Permissions (Consent-Based)</h2>
+    <p>The Application may request the following permission to enable core features:</p>
     <ul>
-        <li><strong>Contractual Necessity:</strong> Local processing is required to provide the visa calculation services you requested.</li>
-        <li><strong>Consent:</strong> Any optional device permissions (such as Location) are processed only after you provide explicit consent via system prompts.</li>
+        <li><strong>Location Services:</strong> If granted, location data is used locally to assist with border-crossing calculations. This information is processed in real-time on your device and is never sent to our servers.</li>
     </ul>
 
-    <h2>3. Device Permissions</h2>
-    <p>To provide specific features, the Application may request:</p>
+    <h2>3. US State Privacy Rights (CCPA/CPRA)</h2>
+    <p>For residents of California, Virginia, Colorado, and other US states with active privacy legislation:</p>
     <ul>
-        <li><strong>Location Data:</strong> Used locally to assist in tracking border crossings. This information is processed in real-time on your device and is not shared with us or any third party.</li>
+        <li><strong>No Sale or Sharing:</strong> We do not "sell" or "share" your personal information (as those terms are defined under the CCPA/CPRA).</li>
+        <li><strong>Right to Know & Delete:</strong> Since we do not collect your data, we do not hold information to "delete" or "disclose." You maintain full control by managing data within the App or uninstalling it.</li>
+        <li><strong>Non-Discrimination:</strong> We will not discriminate against you for exercising any of your privacy rights.</li>
     </ul>
 
-    <h2>4. International Data Transfers</h2>
-    <p>Because no personal data is collected or transmitted to our servers, <strong>no international transfer of personal data occurs</strong>. Your data remains within your control on your device, regardless of your geographic location.</p>
-
-    <h2>5. Your Rights (UK & EU)</h2>
-    <p>Under the GDPR (EU) and UK GDPR, you have the right to access, rectify, or erase your data. Since your data is stored locally:</p>
+    <h2>4. UK & EU GDPR Compliance</h2>
+    <p>In accordance with the UK and EU General Data Protection Regulations:</p>
     <ul>
-        <li><strong>Access & Portability:</strong> You can view all data within the App interface.</li>
-        <li><strong>Erasure:</strong> You can delete all data at any time by clearing the App cache or uninstalling the Application.</li>
-        <li><strong>Lodging a Complaint:</strong> You have the right to complain to a supervisory authority (such as the ICO in the UK or your local Data Protection Authority in the EU).</li>
+        <li><strong>Lawful Basis:</strong> Local processing is based on <strong>Contractual Necessity</strong> (to provide the requested calculations) and <strong>Consent</strong> (for system permissions).</li>
+        <li><strong>Data Controller:</strong> ae35.labs serves as the Data Controller.</li>
+        <li><strong>Data Portability:</strong> Users may view and manage all locally stored data through the App interface.</li>
     </ul>
 
-    <h2>6. Children's Privacy</h2>
-    <p>Our Service does not collect information from anyone. We do not knowingly process data from children under 16 (EU) or 13 (UK). Our Service is safe for general audiences as it lacks data-harvesting capabilities.</p>
+    <h2>5. International Transfers</h2>
+    <p>Because no personal data is collected or transmitted, there are no international transfers of your personal information to third countries or international organizations.</p>
+
+    <h2>6. Children’s Privacy</h2>
+    <p>Our Service is intended for a general audience and does not knowingly collect any data from children. We comply with the **COPPA (USA)** and the **UK Age Appropriate Design Code** by ensuring no data collection occurs for any user, regardless of age.</p>
 
     <div class="contact-card">
-        <h2>7. Contact Information</h2>
-        <p>For questions regarding this policy or our privacy practices, please contact us:</p>
-        <p><strong>Email:</strong> <a href="mailto:ae35.labs@gmail.com">ae35.labs@gmail.com</a></p>
-        <p><strong>Developer:</strong> ae35.labs<br>
-        <strong>Jurisdiction:</strong> United Kingdom</p>
+        <h2>7. Contact Us</h2>
+        <p>If you have questions about our privacy practices or this "Zero-Data" approach, please contact our support team:</p>
+        <p>
+            <strong>Email:</strong> <a href="mailto:ae35.labs@gmail.com">ae35.labs@gmail.com</a><br>
+            <strong>Developer:</strong> ae35.labs<br>
+            <strong>Jurisdiction:</strong> United Kingdom
+        </p>
     </div>
 </div>
 
 <footer>
     &copy; 2026 ae35.labs. All rights reserved.<br>
-    Schengen Family is a tool for calculation assistance and does not constitute legal immigration advice.
+    Schengen Family is an assistance tool; it does not provide legal immigration advice.
 </footer>
 
 </body>
